@@ -1,0 +1,13 @@
+{
+  "name": "DeejpotterBootstrap",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "sass --watch scss/main.scss:../Client/wwwroot/css/bootstrap.css",
+    "build": "sass scss/main.scss:../Client/wwwroot/css/bootstrap.css"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.7",
+    "scss": "^0.2.4"
+  }
+}

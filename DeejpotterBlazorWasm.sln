@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeejpotterBlazorWasm", "DeejpotterBlazorWasm.csproj", "{6DD5DDB0-55A0-46FF-88EF-C9E9444A38F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{4E08630F-A38C-49EE-A1C0-0F5CBDADA4B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{65663B72-C862-41CD-B97F-3B863E51030A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6DD5DDB0-55A0-46FF-88EF-C9E9444A38F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6DD5DDB0-55A0-46FF-88EF-C9E9444A38F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6DD5DDB0-55A0-46FF-88EF-C9E9444A38F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6DD5DDB0-55A0-46FF-88EF-C9E9444A38F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E08630F-A38C-49EE-A1C0-0F5CBDADA4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E08630F-A38C-49EE-A1C0-0F5CBDADA4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E08630F-A38C-49EE-A1C0-0F5CBDADA4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E08630F-A38C-49EE-A1C0-0F5CBDADA4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65663B72-C862-41CD-B97F-3B863E51030A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65663B72-C862-41CD-B97F-3B863E51030A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65663B72-C862-41CD-B97F-3B863E51030A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65663B72-C862-41CD-B97F-3B863E51030A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
